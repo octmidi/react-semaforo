@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.traffic-light-container {
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 50px;
+}
+
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 1);
+    /* Rojo sin opacidad (completamente visible) */
+}
+
+.yellow {
+    background-color: rgb(253, 236, 0);
+    /* Amarillo sin opacidad (completamente visible) */
+}
+
+.green {
+    background-color: rgb(11, 238, 11);
+    /* Verde sin opacidad (completamente visible) */
+}
+
+.greenoff {
+    background-color: rgba(37, 97, 37, 0.5);
+
+}
+
+.yellowoff {
+    background-color: rgba(138, 139, 26, 0.5);
+}
+
+.redoff {
+    background-color: rgba(124, 80, 80, 0.5);
+}
+
+.pilar {
+
+    margin-top: 0;
+    margin-left: 38px;
+    background-color: rgb(22, 22, 22);
+    width: 30px;
+    height: 400px;
+    padding: 0px;
+}
